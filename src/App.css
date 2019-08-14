@@ -1,0 +1,20 @@
+@font-face {
+    font-family: RobotoMono-Thin;
+    src: url(./fonts/RobotoMono-Thin.ttf);
+}
+
+* {
+    font-family: 'Roboto Mono', monospace;
+    background: #e53935;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e35d5b, #e53935);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.stopwatcher {
+    font-size: 4em;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center
+}

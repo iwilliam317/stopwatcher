@@ -1,5 +1,6 @@
 import React from 'react'
+import './App.css'
 
 export default props => (
-    <h1>00:02:00</h1>
+    <div className='stopwatcher'>00:02:00</div>
 )
