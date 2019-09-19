@@ -29,7 +29,7 @@ button {
 	border: 0.1em solid #fff;
 	border-radius: 2em;
 	padding: 0.8rem 2rem;
-	font: 1.2em 'Roboto Mono', monospace;
+	font: 1.2em;
 	outline: none;
 	cursor: pointer;
 	position: relative;
