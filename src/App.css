@@ -10,25 +10,37 @@ body {
     background: linear-gradient(to right, #e35d5b, #e53935); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+div {
+    margin-top: 1em;
+}
+
 .stopwatcher {
-    font-size: 8em;
+    font-size: 11em;
     color: whitesmoke;
     display: flex;
     flex-direction: row;
     justify-items: center;
-    justify-content: center
+    justify-content: center;
 }
 
 button {
     background: transparent;
 	color: #fff;
-	border: 3px solid #fff;
-	border-radius: 50px;
+	border: 0.1em solid #fff;
+	border-radius: 2em;
 	padding: 0.8rem 2rem;
-	font: 24px 'Roboto Mono', monospace;
+	font: 1.2em 'Roboto Mono', monospace;
 	outline: none;
 	cursor: pointer;
 	position: relative;
 	transition: 0.2s ease-in-out;
-	letter-spacing: 2px;
+    letter-spacing: 2px;
+    margin: 0.3em;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: center;
 }

@@ -35,8 +35,14 @@ class App extends Component {
         const {start, formatTime} = this
         return (
             <>
-                <div className='stopwatcher'>{formatTime(hours)}:{formatTime(minutes)}:{formatTime(seconds)}</div>
-                <button onClick={start} disabled={isStarted}>Start</button>
+                <div className='stopwatcher'>
+                    {formatTime(hours)}:{formatTime(minutes)}:{formatTime(seconds)}
+                </div>
+                <div className='buttons'>
+                    <button onClick={start} disabled={isStarted}>Start</button>
+                    <button>Stop</button>
+                    <button>Clear</button>
+                </div>
             </>
         ) 
     }
