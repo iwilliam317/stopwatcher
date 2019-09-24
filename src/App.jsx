@@ -9,10 +9,9 @@ class App extends Component {
     start = () => {
         const {counter} = this
         const {isStarted} = this.state
-        let counterId
         
         if (isStarted) return        
-        counterId = setInterval(() => counter(), 1000)
+        let counterId = setInterval(() => counter(), 1000)
         this.setState({...this.state, counterId})
     }
     
@@ -31,7 +30,10 @@ class App extends Component {
     }
 
     clear = () => {
-        this.stop(this.state.counterId)
+        const {stop} = this
+        const {counterId} = this.state
+
+        stop(counterId)
         this.setState(INITIAL_VALUES)
     }
 
@@ -61,6 +63,9 @@ class App extends Component {
                     <button onClick={clear}>
                         Clear
                     </button>
+                </div>
+                <div className='rights'>
+                    <p><small>Created by <a href="https://github.com/iwilliam317">William Shinji</a></small></p>
                 </div>
             </>
         ) 
