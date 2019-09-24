@@ -3,6 +3,13 @@
     src: url(./fonts/RobotoMono-Thin.ttf);
 }
 
+* {
+    --main-color: #fff;
+    --main-flex-option: {
+        
+    }
+}
+
 body {
     font-family: 'Roboto Mono', monospace;
     background: #e53935;  /* fallback for old browsers */
@@ -25,7 +32,7 @@ div {
 
 button {
     background: transparent;
-	color: #fff;
+	color: var(--main-color);
 	border: 0.1em solid #fff;
 	border-radius: 2em;
 	padding: 0.8rem 2rem;
@@ -43,4 +50,19 @@ button {
     flex-direction: row;
     justify-items: center;
     justify-content: center;
+}
+
+.rights {
+    color: var(--main-color);
+    position: fixed;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-weight: bolder;
 }
