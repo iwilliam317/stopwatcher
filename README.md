@@ -2,6 +2,8 @@
 
 A simple stopwatcher created with react
 
+![alt text](https://raw.githubusercontent.com/iwilliam317/stopwatcher/master/public/print.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
