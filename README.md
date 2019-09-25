@@ -2,7 +2,7 @@
 
 A simple stopwatcher created with react
 
-![alt text](https://raw.githubusercontent.com/iwilliam317/stopwatcher/master/public/print.png)
+![Print of application page](https://raw.githubusercontent.com/iwilliam317/stopwatcher/master/public/print.png)
 
 ## Available Scripts
 
