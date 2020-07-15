@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"stopwatchercc97a1fc": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

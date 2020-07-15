@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-stopwatcher-dev-210009-authRole",
+            "UnauthRoleArn": "arn:aws:iam::176033481166:role/amplify-stopwatcher-dev-210009-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::176033481166:role/amplify-stopwatcher-dev-210009-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "amplify-stopwatcher-dev-210009-deployment",
+            "UnauthRoleName": "amplify-stopwatcher-dev-210009-unauthRole",
+            "StackName": "amplify-stopwatcher-dev-210009",
+            "StackId": "arn:aws:cloudformation:eu-west-1:176033481166:stack/amplify-stopwatcher-dev-210009/cab00b50-c6d5-11ea-8714-02c92b0ad6a6",
+            "AmplifyAppId": "dazlht55521e"
+        },
+        "categories": {
+            "auth": {
+                "stopwatchercc97a1fc": {}
+            }
+        }
+    }
+}

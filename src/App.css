@@ -30,6 +30,12 @@ div {
     justify-content: center;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-items: right;
+    width: 100%;
+}
 button {
     background: transparent;
 	color: var(--main-color);

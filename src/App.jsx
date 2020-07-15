@@ -1,5 +1,9 @@
 import React, {Component} from 'react'
 import './App.css'
+import Amplify from "aws-amplify";
+import awsExports from "./aws-exports";
+import { withAuthenticator, AmplifySignOut, AmplifyNav } from '@aws-amplify/ui-react'
+Amplify.configure(awsExports)
 
 const INITIAL_VALUES = {seconds: 0, minutes: 0, hours: 0, isStarted: false, counterId: 0} 
 class App extends Component {
@@ -50,6 +54,11 @@ class App extends Component {
         const {start, stop, clear, formatTime} = this
         return (
             <>
+            
+                <div className='navbar'>
+                    <AmplifySignOut />
+
+                </div>
                 <div className='stopwatcher'>
                     {formatTime(hours)}:{formatTime(minutes)}:{formatTime(seconds)}
                 </div>
@@ -71,4 +80,4 @@ class App extends Component {
         ) 
     }
 }
-export default App
+export default withAuthenticator(App)
