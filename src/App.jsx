@@ -56,7 +56,6 @@ class App extends Component {
             <>
             
                 <div className='navbar'>
-                    Deploy test
                     <AmplifySignOut />
 
                 </div>
