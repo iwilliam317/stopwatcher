@@ -1,6 +1,8 @@
 # StopWatcher
 
-A simple stopwatcher created with react
+A simple stopwatcher created with react.
+
+Demo available ![here](https://dev.d25cndyrv2uwt4.amplifyapp.com/)
 
 ![Print of application page](https://raw.githubusercontent.com/iwilliam317/stopwatcher/master/public/print.png)
 
