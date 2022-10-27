@@ -1,0 +1,61 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-stopwatcher-dev-210009-authRole",
+      "UnauthRoleArn": "arn:aws:iam::176033481166:role/amplify-stopwatcher-dev-210009-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::176033481166:role/amplify-stopwatcher-dev-210009-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-stopwatcher-dev-210009-deployment",
+      "UnauthRoleName": "amplify-stopwatcher-dev-210009-unauthRole",
+      "StackName": "amplify-stopwatcher-dev-210009",
+      "StackId": "arn:aws:cloudformation:eu-west-1:176033481166:stack/amplify-stopwatcher-dev-210009/cab00b50-c6d5-11ea-8714-02c92b0ad6a6",
+      "AmplifyAppId": "dazlht55521e"
+    },
+    "categories": {
+      "auth": {
+        "stopwatchercc97a1fc": {}
+      }
+    }
+  },
+  "auth": {
+    "stopwatchercc97a1fc": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "output": {
+        "AppClientSecret": "146l4s80rdbf3unoso34vh8rjp63s07vin225ob7nojmnv8qlgqe",
+        "UserPoolId": "eu-west-1_kjShQsii5",
+        "AppClientIDWeb": "9hil1vdhpt71i7rd25gk3o2sa",
+        "AppClientID": "5i5u4l6vnnl63kglb4c8bse42b",
+        "IdentityPoolId": "eu-west-1:c093eca4-53b2-4a53-a239-a2567d3c79e2",
+        "IdentityPoolName": "stopwatchercc97a1fc_identitypool_cc97a1fc__dev",
+        "UserPoolName": "stopwatchercc97a1fc_userpool_cc97a1fc"
+      },
+      "lastPushTimeStamp": "2021-12-08T09:21:29.875Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-stopwatcher-dev-210009-deployment/amplify-cfn-templates/auth/stopwatchercc97a1fc-cloudformation-template.yml",
+        "logicalId": "authstopwatchercc97a1fc"
+      },
+      "lastPushDirHash": "jRdhN1vHUILBjAEF9d+hM05erso=",
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      }
+    }
+  }
+}
